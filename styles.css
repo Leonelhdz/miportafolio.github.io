@@ -1,0 +1,193 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de encabezado */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Estilos de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#proyectos {
+    margin: 0 auto; /* Centra horizontalmente */
+    max-width: 800px; /* Define el ancho máximo del contenedor */
+    padding: 20px;
+}
+
+#proyectos h2 {
+    text-align: center; /* Centra horizontalmente el texto */
+}
+
+#acerca-de {
+    margin: 0 auto; /* Centra horizontalmente */
+    max-width: 800px; /* Define el ancho máximo del contenedor */
+    padding: 20px;
+}
+
+#acerca-de h2 {
+    text-align: center; /* Centra horizontalmente el texto */
+}
+/* Estilos para las imágenes en la sección de contacto */
+#contacto img {
+    max-width: 50px; /* Define el ancho máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
+
+/* Estilos de proyectos */
+.proyecto {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.proyecto img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.descripcion {
+    padding: 20px;
+}
+
+.descripcion h3 {
+    margin-top: 0;
+}
+
+.descripcion p {
+    margin-bottom: 10px;
+}
+
+.descripcion a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.descripcion a:hover {
+    color: #000;
+}
+
+/* Estilos de la sección de contacto */
+#contacto {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+/* Estilos para los elementos dentro de la lista de contacto */
+#contacto ul {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0; /* Quita el relleno predeterminado de la lista */
+    display: flex; /* Utilizar flexbox */
+    justify-content: center; /* Distribuye uniformemente los elementos horizontalmente */
+}
+
+#contacto ul li {
+    display: flex; /* Utilizar flexbox */
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin-bottom: 0px; /* Espacio entre cada ítem de la lista */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilos para las imágenes dentro de la lista de contacto */
+#contacto ul li img {
+    max-width: 50px; /* Define el ancho máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin-bottom: 5px; /* Espacio entre la imagen y el texto */
+    margin-right: 0px; /* Espacio entre cada ítem */
+}
+
+/* Estilos para los enlaces dentro de la lista de contacto */
+#contacto ul li a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #333; /* Color del texto */
+}
+
+.contenido ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contenido ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.contenido ul li i {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos del formulario de contacto */
+.formulario-contacto {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: calc(100% - 22px); /* Se resta 22px para tener en cuenta el grosor del borde */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-contacto button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-contacto button:hover {
+    background-color: #0056b3;
+}

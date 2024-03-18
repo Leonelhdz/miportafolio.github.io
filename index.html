@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <img src="img/foto_perfil.jpg" alt="Foto de perfil" class="foto-perfil">
+        <div class="texto-header">
+            <h1>Francisco Leonel Soriano Hernandez</h1>
+            <p>Estudiante Desarrollo de Aplicaciones Multiplataforma</p>
+        </div>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#acerca-de">Acerca de Mí</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <img src="img/proyecto1.jpg" alt="Proyecto 1">
+            <div class="descripcion">
+                <h3>Titulo Proyecto</h3>
+                <p>Descripción corta del proyecto 1.</p>
+                <a href="proyecto1.html" target="_blank">Ver Proyecto</a>
+                <a href="#" target="_blank">Repositorio en GitHub</a>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/proyecto1.jpg" alt="Proyecto 2">
+            <div class="descripcion">
+                <h3>Titulo Proyecto</h3>
+                <p>Descripción corta del proyecto 2.</p>
+                <a href="proyecto2.html" target="_blank">Ver Proyecto</a>
+                <a href="#" target="_blank">Repositorio en GitHub</a>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/proyecto1.jpg" alt="Proyecto 3">
+            <div class="descripcion">
+                <h3>Titulo Proyecto</h3>
+                <p>Descripción corta del proyecto 3.</p>
+                <a href="proyecto3.html" target="_blank">Ver Proyecto</a>
+                <a href="#" target="_blank">Repositorio en GitHub</a>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/proyecto1.jpg" alt="Proyecto 4">
+            <div class="descripcion">
+                <h3>Titulo Proyecto</h3>
+                <p>Descripción corta del proyecto 4.</p>
+                <a href="proyecto4.html" target="_blank">Ver Proyecto</a>
+                <a href="#" target="_blank">Repositorio en GitHub</a>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="img/proyecto1.jpg" alt="Proyecto 5">
+            <div class="descripcion">
+                <h3>Titulo Proyecto</h3>
+                <p>Descripción corta del proyecto 5.</p>
+                <a href="proyecto5.html" target="_blank">Ver Proyecto</a>
+                <a href="#" target="_blank">Repositorio en GitHub</a>
+            </div>
+        </div>
+        <!-- Repite este bloque para cada proyecto -->
+    </section>
+    <section id="acerca-de">
+        <h2>Acerca de Mí</h2>
+        <div class="contenido">
+            <p>Hola, soy Francisco Leonel Soriano Hernandez, un entusiasta del desarrollo de aplicaciones multiplataforma con una pasión por la tecnología y la programación.</p>
+            <p>Actualmente estoy estudiando Desarrollo de Aplicaciones Multiplataforma, donde he adquirido habilidades en programación en diversos lenguajes, diseño de interfaces de usuario y desarrollo de aplicaciones móviles.</p>
+            <p>Me interesa explorar más el vasto mundo de la informática y descubrir nuevas áreas donde pueda desarrollarme. Estoy emocionado por aprender sobre inteligencia artificial, análisis de datos y seguridad informática, entre otros campos fascinantes.</p>
+            <p>Me apasiona crear soluciones innovadoras que mejoren la vida de las personas y me encanta enfrentarme a nuevos desafíos que me ayuden a crecer como desarrollador.</p>
+            <p>Además de mi carrera en el mundo de la tecnología, también disfruto del arte, la música y la exploración al aire libre.</p>
+            <p>Estoy constantemente buscando oportunidades para aprender y crecer, y estoy emocionado por lo que el futuro me depara en el campo del desarrollo de aplicaciones.</p>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="contenido">
+            <p>¡Me encantaría mantenerme en contacto contigo! Puedes encontrarme en las siguientes plataformas:</p>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/tuperfil" target="_blank">
+                        <img src="img/linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://www.linkedin.com/in/tuperfil" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/tuperfil" target="_blank">
+                        <img src="img/github.png" alt="Github">
+                    </a>
+                    <a href="https://github.com/tuusuario" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/tuperfil" target="_blank">
+                    <img src="img/email.png" alt="Email">
+                    </a>
+                    <a href="mailto:tucorreo@example.com">Email</a>
+                </li>
+            </ul>
+            <h3>O contáctame directamente:</h3>
+            <div class="formulario-contacto">
+                <form action="enviar.php" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
