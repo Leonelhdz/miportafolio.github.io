@@ -10,3 +10,13 @@ proyectos.forEach(proyecto => {
         proyecto.style.border = '1px solid #ccc';
     });
 });
+
+// Agrega una clase al hacer scroll para activar la transición
+window.addEventListener('scroll', () => {
+    const nav = document.querySelector('.sticky-nav');
+    if (window.scrollY > 50) {
+      nav.classList.add('scrolled');
+    } else {
+      nav.classList.remove('scrolled');
+    }
+  });
